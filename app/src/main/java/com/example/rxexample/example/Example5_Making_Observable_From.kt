@@ -1,8 +1,6 @@
 package com.example.rxexample.example
 
 import io.reactivex.rxjava3.core.Observable
-import java.util.concurrent.Executors
-import java.util.concurrent.Future
 
 fun main() {
     Observable.fromArray(1,2,3).subscribe(::println)
